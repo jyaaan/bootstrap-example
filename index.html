@@ -14,15 +14,28 @@
     <nav class="navbar navbar-inverse navbar-default navbar-static-top">
       <div class="container-fluid">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="#">Ignition CRM</a>
         </div>
-        <div class="collapse navbar-collapse">
-          <button type="button" class="btn btn-default navbar-btn">Leads</button>
-          <button type="button" class="btn btn-default navbar-btn">Opportunities</button>
-          <button type="button" class="btn btn-default navbar-btn">Cases</button>
-          <button type="button" class="btn btn-default navbar-btn">Metrics</button>
-          <p class="navbar-text navbar-right">Signed in as John</p>
-          <button type="button" class="btn btn-default navbar-btn">Sign Out</button>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><button type="button" class="btn btn-default navbar-btn">Leads</button></li>
+            <li><button type="button" class="btn btn-default navbar-btn">Opportunities</button></li>
+            <li><button type="button" class="btn btn-default navbar-btn">Cases</button></li>
+            <li><button type="button" class="btn btn-default navbar-btn">Metrics</button></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <p class="navbar-text">Signed in as John</p>
+            <button type="button" class="btn btn-default navbar-btn">Sign Out</button>
+          </ul>
         </div>
       </div>
     </nav>
