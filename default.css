@@ -30,6 +30,7 @@
   float: right;
 }
 
-.give-border {
+.container {
   border: 1px black;
+  margin: 5px;
 }
