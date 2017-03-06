@@ -29,3 +29,7 @@
 .chart-container #right {
   float: right;
 }
+
+.give-border {
+  border: 1px black;
+}
